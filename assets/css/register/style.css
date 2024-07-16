@@ -1,0 +1,39 @@
+body {
+    background-color: #2e3134;
+    height: 100%;
+}
+
+#age {
+    background-color: white;
+}
+
+.alert {
+    width: 22rem;
+}
+
+h3 {
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .olala {
+    margin-top: -20px;
+} */
+
+.container {
+    width: 1000px;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    flex-direction: row;
+    /* Set the direction to row */
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line if needed */
+    gap: 20px;
+
+}
+
+.header {
+    font-size: 16px;
+}

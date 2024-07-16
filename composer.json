@@ -1,0 +1,7 @@
+{
+    "name": "seki/auth",
+    "description": "\"\"",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

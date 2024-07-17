@@ -10,7 +10,7 @@ class Authentication
     public string $email;
     public User $user;
     public Database $db;
-    public int|string $timeIncrement;
+    public float $timeIncrement;
     public function __construct()
     {
         unset($_SESSION['error']);
@@ -18,6 +18,8 @@ class Authentication
         $this->db = new Database;
 
         $this->user = new User;
+
+        $this->timeIncrement = 0; //need to initialize a value to prevent error
     }
     public function increment()
     {
